@@ -1,3 +1,13 @@
+/*Binary search is an efficient algorithm used to find a target value in a sorted array. 
+It works by repeatedly dividing the search interval in half until the target value is found or the search interval is empty.
+How it works:
+1. Start with the middle element:
+
+If the middle element is the target value, the search is complete.
+If the target value is less than the middle element, search the left half.
+If the target value is greater than the middle element, search the right half.
+
+2. Repeat the process until the value is found or the interval is empty.*/
 //this program is runs only on sorted data.
 #include<stdio.h>
 #include<conio.h>
